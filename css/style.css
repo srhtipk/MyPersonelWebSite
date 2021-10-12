@@ -1,0 +1,1061 @@
+﻿
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+/*	font-family: 'Tangerine', cursive;  #2187e7 #9ACD32  #FF4500  */
+  font-family : 'Tangerine' , serif ; 
+	background-color: #f4f4f4;
+}
+
+/*cv ve portfolyo indirme butonu css komutları*/
+.btn-btn{
+  padding: 12px 20px;
+  display: inline-block;
+  background-color: #52ccff;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+/*cv ve portfolyo indirme butonu css komutları sonu*/
+
+
+ul.nv {
+  font-size: 2vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  z-index: -1041 !important;
+}
+
+ul.nv li {
+  float: left;
+}
+
+ul.nv li  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nv li a:hover {
+  background-color: #111;
+}
+
+ul.nv li a.active {
+  background-color: #4CAF50;
+}
+
+.header{
+/*	 font-size: 28px;*/
+	 height:100vh; 
+	 background-size: cover;
+	 position:relative;
+}
+
+.headerkap {
+	position:absolute;
+	width:100%;
+	height:100vh;
+	top:0;
+	left:0;
+	background-color:black;
+	opacity:0.9;
+}
+
+
+
+.headersag{	
+	position:absolute;
+	width:58%;
+	left:25%;
+	top:35%;
+	padding-left:0;
+/*	overflow:hidden;*/
+}
+
+.headersag p{
+/* text-align:center;*/
+   color:white;
+   font-size:8vw;		/*ismin fontu*/
+}
+
+.headersol{
+	width:20%;
+	font-size:1.4vw;
+	position:absolute;
+	left:5%;
+	top:38%;
+}
+
+h1 {
+	color: white;
+  text-shadow: 2px 2px 3px #FF4500;    /* 2px aşağı ve sağa gölge, 3px gölge yoğunluğu, ve gölge rengi*/
+}
+
+p {
+/*	color: white;*/
+    text-shadow: 2px 2px 3px #2187e7;
+}
+
+
+#hk{
+	font-size: 2vw;
+	text-align:center;
+/*	padding-top:23px;*/
+}
+
+#pr{
+  margin-top: 25px;
+	font-size: 2vw;
+	text-align:center;
+/*height:auto;
+	padding-top:21px;
+	border:1px solid red;*/
+}
+
+
+#dnym{
+	font-size: 2vw;
+	text-align:center;
+	height:auto;
+	padding-top:28px;
+/*	border:1px solid red;*/
+}
+
+#ilt{
+	font-size: 2vw;
+	text-align:center;
+	height:auto;
+	padding-top:21px;
+}
+
+
+#ref{
+	font-size: 2vw;
+	text-align:center;
+	height:650px;
+	padding-top:21px;
+}
+
+/*header menu(headersol içerisi )*/
+ul.asd {
+	text-align:center;
+    margin: 0;
+}
+ul.asd li {
+    display: block;
+    margin: 1em 0;
+}
+ul.asd li a.active {
+    color: #000000;
+}
+ul.asd li a {
+    color: #FFFFFF;
+    font-size: 1.3em;
+    margin: 0;
+    text-decoration: none;
+}
+ul.asd li a:hover{
+    color:gray;
+}
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	-o-transition: -o-transform 0.3s,opacity 0.2s;
+	-ms-transition:-ms-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	-o-transform: translateX(20px);
+	-ms-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	-o-transform: translateX(-20px);
+	-ms-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+}/*header menu(headersol içerisi) sonu*/
+
+
+/*   @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);	*/
+		
+
+/*type effect*/
+.text {
+  /*font-family: 'Open Sans', sans-serif;*/
+ /* font-weight: 600;*/
+  font-size: 4vw;    		/*efektin fontu*/
+  position: absolute;  
+ /* width: 450px;*/
+  left: 15%;      		   /*üsteki ismin sola hizası*/
+/*  margin-left: -225px;*/
+  /* height: 40px;		*/
+  top: 40%;					/*üsteki ismin üstten padding*/
+ /* margin-top: -20px;*/
+}
+
+.text p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  /*font-size: 60px;*/
+}
+
+.word {
+  position: absolute;
+  width: 30vw;
+  opacity: 0;
+  left: 25%;     /*  alttaki efektin sola hizası*/
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+ /* color: #8e44ad;*/
+ color:white;
+}
+.belize {
+  color: #2980b9;
+   color:white;
+}
+.pomegranate {
+  color: #c0392b;
+   color:white;
+}
+.green {
+  color: #16a085;
+   color:white;
+}
+.midnight {
+  color: #2c3e50;
+   color:white; 
+}/*type effect sonu*/
+
+
+/*header sosyal medya ikonları ve logom css komutları*/
+.headerLogo{
+/*	background-color:blue;*/
+/*	opacity: 0.5;  */
+	height:25vh;
+	position:absolute;
+	z-index:1000;
+	width:50%;
+	padding-left:35px;
+	overflow:hidden;
+}
+
+.socialLogo{
+	width:15vw;
+	height:15vw;	
+	margin-top:0;
+}
+
+.headerSocial{
+	width:50%;
+	height:10vh;
+	position:absolute;
+	top:5%;
+	left:50%;
+/*	background-color:red;*/
+/*	opacity:0.5;*/
+	padding-left:15%;
+	z-index:1001;
+}
+
+
+.socialmedia_face{
+	width:5vw;
+	height:5vw;
+	position:absolute;
+	overflow:hidden;
+	right:1vw;
+}
+
+.socialmedia_insta{
+	width:5vw;
+	height:5vw;
+	position:absolute;
+	overflow:hidden;
+	right:8vw;
+}
+
+.socialmedia_twitter{
+	width:5vw;
+	height:5vw;
+	position:absolute;
+	overflow:hidden;
+	right:15vw;
+}
+
+.socialmedia_whatsapp{
+	width:5vw;
+	height:5vw;
+	position:absolute;
+	overflow:hidden;
+	right:22vw;
+}
+/*header sosyal medya ikonları ve logom css komutları sonu*/
+
+
+/* hakkımda sekmesi css tanımlamaları*/
+.tanitim{
+	width:100%;
+	height:auto;
+}
+
+.tanitimfoto{
+	width:25%;	
+	float:left;
+}
+
+.fotocerceve{
+	width:90%;
+	height:auto;
+	border:4px solid #52ccff;
+	padding:0;
+	margin-left:7%;
+	border-radius:35px;
+}
+
+.tanitimyazi{
+	width:75%;
+	float:left;
+	padding-left:5%;
+	padding-right:5%;
+	overflow:hidden;
+  margin-top: -3vw;
+}
+
+.tanitimyazi p {
+  text-shadow: none;
+}/* hakkımda sekmesi css tanımlamaları sonu*/
+
+
+/*    bu kod parçacığı nesnelere atanan float özelliğini temizler
+.tanitim::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+*/
+
+/*    style="clear:both;"   -> herhangi bir div'e bu stili tanımlamak da float özelliğini temizler   */
+
+
+
+/*farklı ekran boyutlarında görünüm (media query)*/
+@media screen and (min-width: 1200px){  }
+
+@media screen and (min-width: 992px){ }
+
+@media screen and (min-width: 768px){ }
+
+@media screen and (min-width: 576px){ 
+
+.menu-div{
+display: none;
+}
+
+}
+
+@media screen and (max-width: 575px){
+	
+.headersol{
+	display:none;
+}
+
+.headerLogo{
+	top:3%;
+	height:25vh;
+}
+
+.socialLogo{
+	width:25vh;
+	height:25vh;	
+}
+
+.headerSocial{
+	height:30vh;
+	top:12%;
+}
+
+.socialmedia_whatsapp{
+	width:7vw;
+	height:7vw;
+}
+
+.socialmedia_insta{
+	width:7vw;
+	height:7vw;
+}
+
+.socialmedia_twitter{
+	width:7vw;
+	height:7vw;
+}
+
+.socialmedia_face{
+	width:7vw;
+	height:7vw;
+}
+
+.nv{
+	display:none;
+}
+/*
+.fotocerceve{
+	width:90%;
+}*/
+
+.tanitim{
+	width:100%;
+/*	overflow:hidden;*/
+}
+
+.tanitimfoto{
+	width:95%;
+}
+
+.tanitimyazi{
+	width:100%;
+	padding-right:4%;
+	font-size:4vh;
+}
+
+.menu-div{
+display: block;
+}
+
+.container{
+  display: none;
+}
+
+
+}  /* media query sonu*/
+
+
+/* sticky nav css komutları*/
+div.highlightTextOut a
+{
+    color: rgba(255, 255, 255, 0.3); 
+}
+
+div.highlightTextOut a:before, div.highlightTextIn a:before
+{
+    position: absolute;
+    color: #FFF;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
+} 
+
+div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before
+{
+    transform: scale(1);
+    opacity: 1;
+}
+
+div.container
+{
+	width:100%;
+    font-family: Raleway;
+/*	padding: 10em 3em;*/
+	text-align: center;
+	position:sticky;
+	top:0;
+	z-index:20001;
+}
+
+div.container a
+{
+    color: gray;
+    text-decoration: none;
+    font: 2.3vw Raleway;
+    margin:0;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.black
+{
+	background-color:black;
+	opacity:1;
+}
+
+.container {
+  width: 90%;
+  padding:1%;
+  margin: 0 auto; 
+  overflow: hidden;
+}
+/* sticky nav css komutları sonu*/
+
+
+
+
+
+
+
+
+/* portfolio filtresi */
+.prf {
+  margin: 0;
+  padding: 5;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 575.98px) {
+
+.prf  h4 {
+    font-size: 20px;
+  }
+  /*
+  span,
+  p,
+  li,
+  a {
+    font-size: 14px;
+  }*/
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+.prf  h4 {
+    font-size: 20px;
+  }
+  /*
+.pr  span,
+  p,
+  li,
+  a {
+    font-size: 14px;
+  }*/
+}
+.containe {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .containe {
+      max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .containe {
+      max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .containe {
+      max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .containe {
+      max-width: 1140px;
+  }
+}
+.template-btn {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 12px 20px;
+  display: inline-block;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  border-radius:15px;
+}
+.template-btn:hover {
+  color: white;
+  background: #f28500;
+}
+.portfolio-section {
+  padding-top: 1px;
+  transition: 1.3s;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.portfolio-tab ul {
+  text-align: center;
+  margin-top: 15px;
+}
+.portfolio-tab ul li {
+  color: #000;
+  background: transparent;
+  display: inline;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  border: 2px solid #e30b5d;
+  margin: 0 5px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-tap-highlight-color: transparent;
+  	border-radius:15px;
+}
+@media (max-width: 575.98px) {
+  .portfolio-tab ul li {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+  }
+}
+.portfolio-tab ul li:hover {
+  background: #e30b5d;
+  color: #fff
+}
+.portfolio-tab ul .active {
+  background: #e30b5d;
+  color: #fff
+}
+.clearfix:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+.portfolio-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+}
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 768.1px) and (max-width: 991px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }		
+  }
+.portfolio-grid .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	display:none;
+	overflow:hidden;
+}
+.portfolio-wrapper {
+  overflow:hidden;
+  position: relative !important;
+  cursor:pointer;
+}
+.portfolio-bg {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s;
+  transform: scale(1)
+}
+.portfolio:hover .portfolio-bg{
+  transform: scale(1.2)
+}
+.first .portfolio-bg{
+  background-image: url('ser.jpg');
+  
+}
+.second .portfolio-bg{
+  background-image: url('ser2.jpg');
+}
+.third .portfolio-bg{
+  background-image: url('ser3.jpg');
+  
+}
+.portfolio .label {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  bottom: 0;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.portfolio .label-bg {
+  background: #232323;
+  opacity: 0.7;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  transition: 1px;
+}
+.portfolio .label-text {
+  color:#fff;
+  position: relative;
+  z-index:500;
+  padding:50px 20px;
+}
+.portfolio:hover .label {
+  opacity: 1;
+  visibility: visible;
+}
+.portfolio .text-category {
+  display:block;
+}
+.portfolio .template-btn {
+  background: #e30b5d;
+  border: 1px solid #e30b5d;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: 500
+}/* portfoli filtresi sonu*/
+
+
+
+
+
+/*on scroll olayı için css parçacık*/
+/*
+#contain
+{
+    height:2000px;    
+}
+
+#contain DIV
+{ 
+    margin:50px; 
+    padding:50px; 
+    background-color:pink; 
+}
+*/
+
+.ertele
+{
+    opacity:0;
+}
+
+/**/
+.cerceve{
+
+width: 80vw;
+height: 25vw;
+border: 6px solid powderblue;
+margin-left: 10vw;
+margin-top: 5vw;
+border-radius: 7vw 7vw 7vw 7vw;
+background-color: #fde2f8;
+}
+
+.cerceve h2{
+  font-size: 5vw;
+}
+
+.cerceve h4{
+ font-size: 3vw;
+}
+
+
+.il{
+width: 15vw;
+height: 15vh;
+/*border: 1px solid green;*/
+float: left;
+}
+
+.ack{
+  padding-top: 0px;
+}
+
+.ack h6{
+  font-size: 1.2vw;
+  line-height: 0px;
+  margin-top:20px;
+}
+
+.ilkut{
+width: 60vw;
+height: 20vh;
+margin-left: 20vw;
+
+}
+
+
+.foote{
+width: %100;
+height: 40px;
+background-color: black;
+/*margin-left:5vw;*/
+color:white;
+overflow: hidden;
+}
+
+.foote h5 {
+font-size: 15px;
+margin-top: 2px;
+line-height: 40px;
+padding-top: 0px;
+padding-bottom: 0px;
+overflow: hidden;
+}
+
+/* yetenekler kısmı buradan başlıyor*/
+#yet{
+  text-align: left;
+}
+
+.yetenekler{
+  margin-top: 5vh;
+  width: 33.3%;
+  height: 50vh;
+  float: left;
+}
+
+.skill-container{
+  width: 80%;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #ffcc33;
+}
+.bar.back::before{
+  background-color: #a6cfe3;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
+}/*yeteneklerim kısmı sonu*/
+
+
+/*ismin neon efekti*/
+.name_neon_effect {
+  font: 700% 'Poiret One', cursive;
+  color: #fff;
+  text-shadow: 
+    0 0 10px #fff, 
+    0 0 30px #58ade0, 
+    0 0 50px #58ade0, 
+    0 0 70px #fff,
+    0 0 90px #fff;
+}
+/*ismin neon efekti sonu*/
+
+
+/* menu btn css komutları */
+.menu {
+  position: relative;
+  display:  inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.menu span {
+  margin: 0 auto;
+  position: relative;
+  top: 12px;
+}
+.menu span:before, .menu span:after {
+  position: absolute;
+  content: '';
+}
+.menu span, .menu span:before, .menu span:after {
+  width: 30px;
+  height: 6px;
+  background-color: #000;
+  display: block;
+}
+.menu span:before {
+  margin-top: -12px;
+}
+.menu span:after {
+  margin-top: 12px;
+}
+
+/* example 8 */
+.example8 span {
+  -webkit-transition: 0.2s ease 0s; transition: 0.2s ease 0s;
+}
+.example8 span:before, .example8 span:after {
+  -webkit-transition-property: margin, opacity; transition-property: margin, opacity;
+  -webkit-transition-duration: 0.2s, 0s; transition-duration: 0.2s, 0s;
+  -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+}
+.example8:hover span {
+  width: 16px;
+  height: 16px;
+  margin-top: -5px;
+  -webkit-border-radius: 50%; border-radius: 50%;
+  -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+}
+.example8:hover span:before, .example8:hover span:after {
+  margin-top: 0px;
+  opacity: 0;
+  -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
+
+.menu-div{
+background-color: white;
+position: absolute;
+z-index: 10000;
+top: 55vh;
+left: 45vw;
+}
+
+#panel{
+  width: 100%;
+  /*padding: 50px;*/
+  text-align: center;
+  /*background-color: black;
+  border: solid 1px #c3c3c3;*/
+  display: none;
+  z-index: 1000000 !important;
+  position: absolute;
+  color: white;
+  top: 65vh;
+}
+
+.sekme{
+  background-color: black;
+  padding: 9px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5vw 5vw 5vw 5vw;
+}
+
+#panel a {
+  text-decoration: none;
+}
+
+/* --- menu btn css komutları sonu --- */
+
+
+
+
+
+
+
+
+
